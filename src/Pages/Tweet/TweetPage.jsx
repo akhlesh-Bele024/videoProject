@@ -47,7 +47,8 @@ function TweetPage() {
 
     useEffect(()=>{
         fetchTweets()
-    },[])
+    },[]);
+    // depandecy dala hai
 
     const publishTweet = async (data) => {
         try {
